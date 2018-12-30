@@ -1,0 +1,58 @@
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.game-header {
+  text-align: center;
+}
+.result-board {
+  margin: 20px 0;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.game-score {
+  display: flex;
+  justify-content: space-between;
+}
+.score {
+  margin: 20px 0;
+  widows: 50%;
+  font-size: 1.5rem;
+}
+.score span {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+.table {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  width: 9%;
+  min-height: 170px;
+  background-color: #d6cc87;
+  font-size: 2.5rem;
+  text-align: center;
+  background-image: url(card-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-selected {
+  background-image: none;
+  background-color: #ccc;
+}
+.game-footer {
+  display: flex;
+  justify-content: center
+}
+.btn {
+  margin: 20px;
+  cursor: pointer;
+}
+.btn:disabled {
+  cursor: default;
+}

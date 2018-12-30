@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>A simple BlackJack game!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="Blackjackv1.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="wrap">
+      <header class="game-header">
+          <h1>A BlackJack game</h1>
+          <div class="result-board alert" id="gameResult"></div>
+      </header>
+      <main>
+        <div class="game-score">
+            <div class="score">Player's Score:<span class="badge badge-info" id="playerScore">0</span></div>
+            <div class="score">Dealer's Score:<span class="badge badge-info" id="dealerScore">0</span></div> 
+        </div>       
+        <div class="table">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+      </main>
+      <footer class="game-footer">
+          <button id='hitButton' type="button" class="btn btn-outline-dark btn-lg" disabled>Hit Me!</button>
+          <button id='standButton' type="button" class="btn btn-outline-dark btn-lg" disabled>Stand</button>
+          <button id='startButton' type="button" class="btn btn-outline-dark btn-lg">Start Game!</button>
+      </footer>  
+  </div>
+ 
+  <script type="text/javascript" src="Blackjackv1.js"></script>
+</body>
+
+</html>
